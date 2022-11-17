@@ -1,0 +1,17 @@
+{
+  "name": "geektrust",
+  "version": "1.0.0",
+  "description": "geektrust-project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node geektrust.js",
+    "test": "mocha 'TEST/**/*.spec.js'"
+  },
+  "author": "geektrust",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "mocha": "^10.0.0"
+  }
+}
